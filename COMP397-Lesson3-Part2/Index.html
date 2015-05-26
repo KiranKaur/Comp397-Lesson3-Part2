@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" contenteditable="device=width-width",intial-scale=1.0" />
+    <meta name="viewport" contenteditable="width=device-width",intial-scale=1.0" />
     <title></title>
     <!--Css Section-->
         <link href="Css/reset.css" rel="stylesheet" />
@@ -11,40 +11,184 @@
 <body onload="init();">
     <div id="impress">
         <!--First Slide-->
-        <div id="1" class="step slide">
+        <div id="Start" class="step slide">
             <div class="slide-text">
-               <p>
-                   There is a time machine over there,flip the switch</p>
-                <p><a href="#2">Flip</a>it.</p>
-                <p><a href="#3">WAIT</a>for your Dad,who is a scientist to come home.</p>
-                
+                <p>
+                    This is a starting slide.
+                </p>
+                <p><a href="#Island1">Island 1</a>option to select the island 1.</p>
+                <p><a href="#Island2">Island 2</a>option to select island 2.</p>
+
             </div><!--End of slide text-->
         </div><!--end of slide 1-->
+       
 
-        <!--Second Slide-->
-        <div id="2" class="step slide" data-z="1500">
-            <div class="slide-text"><p>You Went back in time.It was fun</p>
-            
-            <div class="menu" ><a href="#1">START OVER</a>></div>
-            </div>
-        </div><!--End of Slide 2-->
+                <!--Second Slide-->
+                <div id="Island1" class="step slide" data-x="1500">
+                    <div class="slide-text">
+                        <p>You are at Island 1</p>
 
-    <!--Third Slide-->
-        <div id="3" class="step slide" data-x="3500">
+                        <a href="#Beach1">BEACH 1</a>
+                        <a href="#Beach2">BEACH 2</a>
+                    </div>
+                </div><!--End of Slide 2-->
+                <!--Third Slide-->
+                <div id="Island2" class="step slide" data-y="2000">
+                    <div class="slide-text">
+                        <p>You are at Island 2.</p>
+                        <p>he wanted to do your homework</p>
+                        <p>It was great fun.But not as much fun.</p>
+                        <a href="#Forest1">Forest 1</a>
+                        <a href="#Forest2">Forest 2</a>
+
+                        
+                       
+                    </div>
+                </div><!--End of Slide 3-->
+                <!--Fourth Slide-->
+                <div id="Beach1" class="step slide" data-z="2500">
+                    <div class="slide-text">
+                        <p>You are at beach 1.</p>
+                        <p>he wanted to do your homework</p>
+                        <p>It was great fun.But not as much fun.</p>
+                        <a href="#Desert1">Desert 1</a>
+                        <a href="#Desert2">Desert 2</a>
+
+                        
+                    </div>
+                </div><!--End of Slide 4-->
+                <!--Fifth Slide-->
+                <div id="Beach2" class="step slide" data-x="3000">
+                    <div class="slide-text">
+                        <p>You are at beach 2.</p>
+                        <p>he wanted to do your homework</p>
+                        <p>It was great fun.But not as much fun.</p>
+                        <a href="#Ocean1">Ocean 1</a>
+                        <a href="#Ocean2">Ocean 2</a>
+
+                        
+                    </div>
+                </div><!--End of Slide 5-->
+        <!--Sixth Slide-->
+        <div id="Forest1" class="step slide" data-y="3500">
             <div class="slide-text">
-                <p>You Waited for dad.</p>
+                <p>You are at Forest 1.</p>
                 <p>he wanted to do your homework</p>
                 <p>It was great fun.But not as much fun.</p>
+                <a href="#Glacier1">Glacier 1</a>
+                <a href="#Glacier2">Glacier 2</a>
 
-                <div class="menu" ><a href="#1">START OVER</a>></div>
+
             </div>
-        </div><!--End of Slide 3-->
-    </div><!--End of Impress-->
-    <!--Javascript section-->
-    <script src="Scripts/lib/impress.js"></script>
+        </div><!--End of Slide 6-->
+        <!--Seventh Slide-->
+        <div id="Forest2" class="step slide" data-z="4000">
+            <div class="slide-text">
+                <p>You are at Forest 2.</p>
+                <p>he wanted to do your homework</p>
+                <p>It was great fun.But not as much fun.</p>
+                <a href="#Mountain1">Mountain 1</a>
+                <a href="#Mountain2">Mountain 2</a>
 
-    <script src="Scripts/Game.js"></script>
 
-    
+            </div>
+        </div><!--End of Slide 7-->
+        <!--Eighth Slide-->
+        <div id="Desert1" class="step slide" data-x="5000">
+            <div class="slide-text">
+                <p>You are at Desert 1.</p>
+                <p>he wanted to do your homework</p>
+                <p>It was great fun.But not as much fun.</p>
+                <a href="#Start">Start Again</a>
+
+
+            </div>
+        </div><!--End of Slide 8-->
+        <!--Ninth Slide-->
+        <div id="Desert2" class="step slide" data-y="5500">
+            <div class="slide-text">
+                <p>You are at Desert 2.</p>
+                <p>he wanted to do your homework</p>
+                <p>It was great fun.But not as much fun.</p>
+                <a href="#Start">Opps....Start Again</a>
+
+
+            </div>
+        </div><!--End of Slide 9-->
+        <!--Tenth Slide-->
+        <div id="Glacier1" class="step slide" data-z="6000">
+            <div class="slide-text">
+                <p>You are at Glacier 1.</p>
+                <p>he wanted to do your homework</p>
+                <p>It was great fun.But not as much fun.</p>
+                <a href="#Start">Sorry....Start Again</a>
+
+
+            </div>
+        </div><!--End of Slide 10-->
+        <!--eleventh Slide-->
+        <div id="Glacier2" class="step slide" data-x="6500">
+            <div class="slide-text">
+                <p>You are at Glacier 2.</p>
+                <p>he wanted to do your homework</p>
+                <p>It was great fun.But not as much fun.</p>
+                <a href="#Start">Sorry....Start Again</a>
+
+
+            </div>
+        </div><!--End of Slide 11-->
+        <!--Tweleveth Slide-->
+        <div id="Mountain1" class="step slide" data-y="7000">
+            <div class="slide-text">
+                <p>You are at Mountain 1.</p>
+                <p>he wanted to do your homework</p>
+                <p>It was great fun.But not as much fun.</p>
+                <a href="#Start">Ahhhh....Start Again</a>
+
+
+
+
+            </div>
+        </div><!--End of Slide 12-->
+        <!--Thirteenth Slide-->
+        <div id="Mountain2" class="step slide" data-z="7500">
+            <div class="slide-text">
+                <p>You are at Mountain 2.</p>
+                <p>he wanted to do your homework</p>
+                <p>It was great fun.But not as much fun.</p>
+                <a href="#Start">Noooo....Start Again</a>
+
+
+            </div>
+        </div><!--End of Slide 13-->
+        <!--Fourteenth Slide-->
+        <div id="Ocean1" class="step slide" data-x="8000">
+            <div class="slide-text">
+                <p>You are at Ocean 1.</p>
+                <p>he wanted to do your homework</p>
+                <p>It was great fun.But not as much fun.</p>
+                <a href="#Start">It cant be....Start Again</a>
+
+
+            </div>
+        </div><!--End of Slide 14-->
+        <!--Fifteenth Slide-->
+        <div id="Ocean2" class="step slide" data-y="8500">
+            <div class="slide-text">
+                <p>You are at Ocean 2.</p>
+                <p>he wanted to do your homework</p>
+                <p>It was great fun.But not as much fun.</p>
+                <a href="#Start">yeeee....You Win</a>
+
+
+            </div>
+        </div><!--End of Slide 15-->
+            </div><!--End of Impress-->
+            <!--Javascript section-->
+            <script src="Scripts/lib/impress.js"></script>
+
+            <script src="Scripts/Game.js"></script>
+
+
 </body>
 </html>
